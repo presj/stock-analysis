@@ -12,6 +12,7 @@ Results
 Collectively, the 12 stocks analyzed outperformed in 2017 over 2018 with the average rates of return higher for 11 of the 12 stocks.  While returns were higher in 2017, the total daily volume was less than in 2018.  By contrast, TERP showed the only loss for 2017 while ENPH and RUN showed the only gains in 2018.  
  ![image](https://user-images.githubusercontent.com/100803302/158041133-a98dd268-832f-457a-86c7-02f41024ba0a.png)
  ![image](https://user-images.githubusercontent.com/100803302/158041141-0bdf0377-d5ab-4c9a-8e86-8630df48dd31.png)
+
 A sampling of the code used to analyze this stock data is illustrated in these steps:
 1a) Loop over all the rows in the spreadsheet
    For i = 2 To RowCount  
@@ -34,6 +35,7 @@ Next i
 Original and Refactored Script Execution Times
 
 Before refactoring, the execution of code run times were 0.53125 seconds for the 2017 data and 0.51563 seconds for the 2018 data.  After refactoring, the execution run times are what follows:
+
 ![image](https://user-images.githubusercontent.com/100803302/158041169-60a8e7d3-78f4-419b-80d0-e0f983fbc09d.png)
 ![image](https://user-images.githubusercontent.com/100803302/158041179-56bc09d9-49f6-48b8-bbf9-4552735e5d00.png)
 
